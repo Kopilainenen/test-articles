@@ -28,6 +28,6 @@ class TagTest extends TestCase
         $response->assertStatus(200)
             ->assertJson([
                 'name' => 'Updated Tag',
-            ]);
+            ]); 
     }
 }
